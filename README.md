@@ -23,7 +23,7 @@ Copy `.env.local.example` to `.env.local` and add:
 
 ```text
 GOOGLE_PLACES_API_KEY=YOUR_GOOGLE_PLACES_API_KEY
-NEXT_PUBLIC_GOOGLE_PLACE_ID=YOUR_CLUB72_GOOGLE_PLACE_ID
+NEXT_PUBLIC_GOOGLE_PLACE_ID=ChIJhx25ZmDvDzkRn6j_r-rgULM
 ```
 
 Without these values, the reviews UI uses its safe fallback. After both

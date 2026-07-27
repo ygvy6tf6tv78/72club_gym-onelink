@@ -13,8 +13,8 @@ export const shopConfig = {
   name: 'Club72 Gym',
   tagline: "India's Biggest Gym",
   taglineShort: 'Premium fitness, sports and wellness under one roof.',
-  serviceTagline: 'Mohali Sector 72 • Fitness • Sports • Wellness',
-  snapshotLocationLine: 'Sector 72, Sahibzada Ajit Singh Nagar, Punjab',
+  serviceTagline: 'Mohali Sector 73 • Fitness • Sports • Wellness',
+  snapshotLocationLine: 'Phase-8, Sector 73, Sahibzada Ajit Singh Nagar, Punjab',
   snapshotServicesLine:
     'Fitness • Sports • Swimming • Personal Training • Recovery • Kids Active Zone',
   snapshotHours: 'Mon-Sat 6:00 AM - 11:30 PM • Sun 12:00 PM - 9:00 PM',
@@ -25,9 +25,9 @@ export const shopConfig = {
   contact: {
     phones: ['8350007272'],
     email: '',
-    address: 'Plot No. A 33, Phase-8, Industrial Area, Sector 72, Sahibzada Ajit Singh Nagar, Punjab 160071',
-    locationLine: 'Mohali Sector 72',
-    mapQuery: 'Club72 Gym Sector 72 Mohali Punjab 160071',
+    address: 'Phase-8, Plot No. A 33, Phase-8, Industrial Area, Sector 73, Sahibzada Ajit Singh Nagar, Punjab 160071, India',
+    locationLine: 'Phase-8, Sector 73, Mohali',
+    mapQuery: 'Club 72 Gym by Pro Ultimate Phase-8 Sector 73 Sahibzada Ajit Singh Nagar Punjab 160071 India',
     storeHours: 'Mon-Sat 6:00 AM - 11:30 PM',
     storeHoursStatus: 'Gym Hours',
     officePhone: '8350007272',
@@ -93,18 +93,19 @@ export const shopConfig = {
   },
 
   google: {
-    placeId: process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID || '',
+    placeId: process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID || 'ChIJhx25ZmDvDzkRn6j_r-rgULM',
     mapsUrl:
-      'https://www.google.com/maps/search/?api=1&query=Club72+Gym+Sector+72+Mohali+Punjab+160071',
-    reviewsUrl: 'https://www.google.com/search?q=Club72+Gym+Mohali+reviews',
+      'https://www.google.com/maps/search/?api=1&query=Club+72+Gym+by+Pro+Ultimate&query_place_id=ChIJhx25ZmDvDzkRn6j_r-rgULM',
+    reviewsUrl:
+      'https://search.google.com/local/reviews?placeid=ChIJhx25ZmDvDzkRn6j_r-rgULM',
   },
 
   seo: {
     title: "Club72 Gym | India's Biggest Gym in Mohali",
     description:
-      'Club72 Gym in Mohali Sector 72 — 1 lakh+ sq. ft., 300+ machines, 15+ training zones, swimming, sports and complete wellness.',
+      'Club72 Gym in Mohali Sector 73 — 1 lakh+ sq. ft., 300+ machines, 15+ training zones, swimming, sports and complete wellness.',
     keywords:
-      'Club72 Gym, gym Mohali, gym Sector 72 Mohali, biggest gym India, personal training Mohali, swimming pool Mohali',
+      'Club72 Gym, gym Mohali, gym Sector 73 Mohali, biggest gym India, personal training Mohali, swimming pool Mohali',
   },
 
   credits: { designer: 'RepixelX Studio', designerUrl: 'https://repixelx.com' },

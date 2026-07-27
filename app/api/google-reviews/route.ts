@@ -58,7 +58,8 @@ export async function GET(request: NextRequest) {
     const placeId =
       searchParams.get('placeId') ||
       process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID ||
-      process.env.GOOGLE_PLACE_ID
+      process.env.GOOGLE_PLACE_ID ||
+      shopConfig.google.placeId
 
     if (!placeId) {
       return getFallbackResponse('Live Google reviews will appear after the Club72 Place ID is connected.')
